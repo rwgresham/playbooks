@@ -1,0 +1,38 @@
+{
+    "create_time": "2020-11-29T03:18:26.805809+00:00",
+    "custom_function_id": "86b402343c5439fcfc7c78a31ded7034e798ce1c",
+    "description": "Add, remove, or replace artifact tags. If using the replacement_tags input, then tags_to_add and tags_to_remove will be ignored. All tag inputs should be comma-separated lists. Any whitespace before or after the tag will be stripped.",
+    "draft_mode": true,
+    "inputs": [
+        {
+            "contains_type": [],
+            "description": "Container ID of the artifact to update",
+            "input_type": "item",
+            "name": "container_id",
+            "placeholder": ""
+        },
+        {
+            "contains_type": [],
+            "description": "Comma-separated list of tags to add, which will be appended to the existing list.",
+            "input_type": "item",
+            "name": "tags_to_add",
+            "placeholder": ""
+        },
+        {
+            "contains_type": [],
+            "description": "Comma-separated list of tags to remove. If the artifact does not have any of these tags, they will be ignored.",
+            "input_type": "item",
+            "name": "tags_to_remove",
+            "placeholder": ""
+        },
+        {
+            "contains_type": [],
+            "description": "Comma-separated list of tags to apply to the artifact, which will replace all tags currently applied to the artifact.",
+            "input_type": "item",
+            "name": "replacement_tags",
+            "placeholder": ""
+        }
+    ],
+    "outputs": [],
+    "platform_version": "4.9.39220"
+}
